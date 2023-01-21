@@ -2,26 +2,27 @@
   <head>
     <title>Example Page</title>
     
-        <style>
-        .banner-text {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            color: white;
-            text-align: center;
-        }
+    <style>
+      img[alt="Banner Image"] {
+        position: relative;
+      }
+      img[alt="Banner Image"]::before {
+        content: "Banner Text";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color:white;
+        font-size: 36px;
+        font-weight: bold;
+      }
     </style>
 
   </head>
   <body>
     
-    <div style="position:relative">
-      <img src="Images/banner.jpg" alt="Banner Image" style="width:100%">
-      <div class="Milky Way Analogues project">
-        <h2>Banner Text</h2>
-      </div>
-    </div>
+    <img src="banner-image.jpg" alt="Banner Image" style="width:100%">
 
     
     <h1>Title</h1>
