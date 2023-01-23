@@ -1,5 +1,5 @@
 # Milky Way Analogues project
 
 
-[I'm an inline-style link](https://www.google.com)
+[see the webpage here](https://miguel-aragon.github.io/Milky-Way/)
 
